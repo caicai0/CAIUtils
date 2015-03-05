@@ -17,6 +17,7 @@
 		4B5E37D21AA7E62D00017F0F /* CAIUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5E37D11AA7E62D00017F0F /* CAIUtilsTests.m */; };
 		4B5E37DE1AA7E64900017F0F /* UIView+showBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5E37DD1AA7E64900017F0F /* UIView+showBorder.m */; };
 		4B5E37E11AA7E78500017F0F /* UIButton+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5E37E01AA7E78500017F0F /* UIButton+block.m */; };
+		4BB9EF191AA814F3003D811B /* UIControl+Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9EF181AA814F3003D811B /* UIControl+Edge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		4B5E37DD1AA7E64900017F0F /* UIView+showBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+showBorder.m"; path = "../UIView+showBorder.m"; sourceTree = "<group>"; };
 		4B5E37DF1AA7E78500017F0F /* UIButton+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+block.h"; path = "../UIButton+block.h"; sourceTree = "<group>"; };
 		4B5E37E01AA7E78500017F0F /* UIButton+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+block.m"; path = "../UIButton+block.m"; sourceTree = "<group>"; };
+		4BB9EF171AA814F3003D811B /* UIControl+Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Edge.h"; sourceTree = "<group>"; };
+		4BB9EF181AA814F3003D811B /* UIControl+Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Edge.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				4B5E37E01AA7E78500017F0F /* UIButton+block.m */,
 				4B5E37DC1AA7E64900017F0F /* UIView+showBorder.h */,
 				4B5E37DD1AA7E64900017F0F /* UIView+showBorder.m */,
+				4BB9EF171AA814F3003D811B /* UIControl+Edge.h */,
+				4BB9EF181AA814F3003D811B /* UIControl+Edge.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 				4B5E37DE1AA7E64900017F0F /* UIView+showBorder.m in Sources */,
 				4B5E37B51AA7E62D00017F0F /* main.m in Sources */,
 				4B5E37E11AA7E78500017F0F /* UIButton+block.m in Sources */,
+				4BB9EF191AA814F3003D811B /* UIControl+Edge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +444,7 @@
 				4B5E37D71AA7E62D00017F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B5E37D81AA7E62D00017F0F /* Build configuration list for PBXNativeTarget "CAIUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +453,7 @@
 				4B5E37DA1AA7E62D00017F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
